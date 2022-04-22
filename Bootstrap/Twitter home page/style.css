@@ -1,0 +1,195 @@
+.fa-twitter{
+    font-size: 25px;
+}
+.btn_nav:hover{
+    background-color: rgb(237, 225, 225) !important;
+    cursor: pointer;
+}
+.z_index_div{
+    z-index: 1;
+}
+.row_mystyle{
+    margin-left: 220px;
+    height: fit-content;
+}
+.tweet_galery:hover{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(152, 188, 219);
+    cursor: pointer;
+}
+.tweet_galery{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.tweet_galery i{
+    margin-left: 6px;
+    margin-top: 6px;
+    color: #1D9BF0;
+}
+.card_div:hover{
+    cursor: pointer;
+    background-color: rgb(241, 244, 246);
+}
+.share_div div{
+    /* border: 1px solid red; */
+    width: 30px;
+    height: 30px;
+    margin-left: -130px;
+    border-radius: 20px;
+}
+.share_div div p{
+    margin-top: -23px;
+    margin-left: 17px;
+    width: 50px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+}
+.share_div div:nth-of-type(1):hover{
+    /* background-color: red; */
+    border-radius: 20px;
+    background-color: rgb(187, 187, 218);
+    color: rgb(103, 103, 247);
+}
+.share_div div:nth-of-type(1) p:hover{
+    border-radius: 20px;
+    color: rgb(103, 103, 247);
+}
+.share_div div:nth-of-type(2):hover{
+    /* background-color: red; */
+    border-radius: 20px;
+    background-color: rgb(181, 228, 215);
+    color: green;
+}
+.share_div div:nth-of-type(2) p:hover{
+    border-radius: 20px;
+    color: green;
+}
+.share_div div:nth-of-type(3):hover{
+    /* background-color: red; */
+    border-radius: 20px;
+    background-color: rgb(240, 146, 146);
+    color: rgb(253, 0, 0);
+}
+.share_div div:nth-of-type(3) p:hover{
+    border-radius: 20px;
+    color: rgb(253, 0, 0);
+}
+.share_div div:nth-of-type(4):hover{
+    /* background-color: red; */
+    border-radius: 20px;
+    background-color: rgb(181, 228, 215);
+    color: rgb(7, 254, 184);
+}
+.search_div input{
+    background-color: rgb(219, 230, 239);
+}
+.happening_img_div{
+    width: 200px;
+    height: 70px;
+}
+.happening_img_div img{
+    width: 100%;
+    height: 100%;
+}
+.happening_dot_div{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid red; */
+}
+.happening_dot_div:hover{
+    cursor: pointer;
+    background-color: rgb(186, 210, 230);
+    color: #1D9BF0;
+}
+.happening_show_div{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.who_img_div{
+    width: 50px;
+    height: 50px;
+}
+.who_img_div img{
+    width: 100%;
+    height: 100%;
+}
+#footer_nav{
+    display: none;
+}
+.input_focus:focus{
+    outline: none;
+}
+.tweet_pen{
+    margin-left: auto;
+    /* margin-bottom: 80px; */
+    bottom: 60px;
+    right: 38px;
+    display: none !important;
+}
+.row_mystyle_button{
+    background-color: #1D9BF0;
+}
+.row_mystyle_button_1{
+    display: none;
+}
+@media screen and (max-width:1500px) {
+    .col-2 button{
+        width: 200px;
+    }
+}
+@media screen and (max-width:1280px) {
+    .row_mystyle{
+        margin-left: 100px;
+    }
+    .col-2 button span{
+        display: none;
+    }
+    .col-2 .btn_nav{
+        width: 60px;
+        margin-left: 20px;
+    }
+    .row_mystyle .row_mystyle_i{
+        padding-left: 20px;
+    }
+    .col-2 .row_mystyle_button {
+        width: 90px;
+    }
+    .row_mystyle_button{
+        display: none;
+    }
+    .row_mystyle_button_1{
+        display: unset;
+    }
+}
+@media screen and (max-width:1000px) {
+    .col-lg-4{
+        display: none;
+    }
+}
+@media screen and (max-width:750px) {
+    .share_div div{
+        margin-left: 0px;
+    }  
+}
+@media screen and (max-width:576px) {
+    .row_mystyle{
+        margin-left: 0px;
+    }
+    #footer_nav{
+        display: unset;
+        width: 100%;
+        left: 0px;
+    }
+    #footer_nav ul{
+        margin-top: 7px;
+        font-size: 1.2rem;
+    }
+    .tweet_pen{
+        position: fixed !important;
+        display: unset !important;
+    }
+    .home_img{
+        display: unset;
+    }
+}
