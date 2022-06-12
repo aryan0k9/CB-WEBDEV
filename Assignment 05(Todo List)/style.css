@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(154, 214, 214);
+}
+h1{
+    background-color: aqua;
+    /* border: 1px solid red; */
+    box-shadow: 0px 5px 10px black;
+    font-family: 'Cedarville Cursive', cursive;
+    text-align: center;
+}
+container{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+    /* background-color: rgb(18, 6, 86); */
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+}
+div{
+    background-color: rgb(236, 150, 10);
+    border-radius: 20px;
+    width: 40vw;
+    height: 70vh;
+    /* border:1px solid red; */
+}
+div h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    /* border: 1px solid red; */
+}
+input, button{
+    padding: 10px;
+    margin-top: 40px;
+    background-color: rgb(18, 6, 86);
+    border-color: rgb(42, 6, 246);
+    color: white;
+    font-size: 20px;
+    
+}
+input{
+    width: 30vw;
+    margin-left: 40px;
+}
+button{
+    cursor: pointer;
+    background: linear-gradient(68deg, rgba(13,45,203,1) 0%, rgba(196,195,215,1) 100%);
+}
+.liststyle{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid red; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 5px;
+    width: 28vw;
+    margin-left: 60px;
+    border-radius: 5px;
+    border: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+.liststyle:hover{
+    transition: all 0.5s;
+    transform: scaleX(1.05);
+}
+.mainEdit{
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+    height: 20px;
+    padding: 5px;
+    /* background-color: black; */
+    border-radius: 0px;
+    /* border: 1px solid red; */
+}
+.edit{
+    display: flex;
+    width: 30px;
+    border-radius: 5px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.edit:hover{
+    /* background-color: rgb(255, 255, 255); */
+    cursor: pointer;
+}
+.divescroll{
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 0px;
+}
