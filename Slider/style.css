@@ -1,0 +1,35 @@
+section{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    border: 1px solid red;
+}
+#container{
+    position: absolute;
+    height: 450px;
+    width: 100%;
+}
+#container .slide img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+button{
+    cursor: pointer;
+    padding: 8px 18px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#next{
+    right: 10px;
+}
+#prev{
+    left: 10px;
+}
+.slide{
+    display: none;
+}
